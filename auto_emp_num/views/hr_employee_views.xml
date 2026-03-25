@@ -11,10 +11,10 @@
                         type="object" 
                         class="oe_highlight"
                         groups="hr.group_hr_manager"
-                        confirm="Se asignarán números EMP0000x basados en la fecha de creación. ¿Continuar?"/>
+                        confirm="Se asignarán números EMP0000x. ¿Continuar?"/>
             </xpath>
             <xpath expr="//field[@name='mobile_phone']" position="before">
-                <field name="registration_number" readonly="1" string="ID Empleado"/>
+                <field name="registration_number" readonly="1"/>
             </xpath>
         </field>
     </record>
