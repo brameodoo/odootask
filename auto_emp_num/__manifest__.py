@@ -4,7 +4,7 @@
     'summary': 'Genera ID de empleado EMP00001 y sincroniza el PIN basado en fecha de contrato',
     'category': 'Human Resources',
     'author': 'Xentinell IA assist',
-    'depends': ['hr', 'hr_contract'],
+    'depends': ['hr'],
     'data': [
         'data/ir_sequence_data.xml',
         'views/hr_employee_views.xml',
